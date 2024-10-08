@@ -1,0 +1,63 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 400px;
+  width: 100%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.close-btn {
+  padding: 10px;
+  font-size: 16px;
+  margin: 0.5rem 0;
+  width: 100%;
+  background-color: #b90d0dec;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.close-btn:hover {
+  background-color: #c82333;
+}
+
+.join-quiz-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.join-quiz-form input {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.join-quiz-form button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #2d5bd8;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.join-quiz-form button:hover {
+  background-color: #45a049;
+}

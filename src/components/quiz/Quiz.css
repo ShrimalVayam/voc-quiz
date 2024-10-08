@@ -1,0 +1,108 @@
+h1 {
+  text-align: center;
+  font-size: 3.5rem;
+  font-weight: 800;
+  margin-top: 40px;
+  margin-bottom: 25px;
+  background: linear-gradient(135deg, #ff5f6d, #ffc371);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 2px 5px 12px rgba(0, 0, 0, 0.3);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+
+.button {
+  font-size: large;
+  background-color: #007bff;
+  color: #fff;
+  margin: 30px 0;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  min-height: 30px;
+  min-width: 120px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0056b3;
+  transition: 0.3s;
+}
+
+.button:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(0, 123, 255, 0.5);
+  transition: 0.3s;
+}
+
+.button:active {
+  background-color: #004085;
+}
+
+.active-users-container {
+  width: 60%;
+  margin: 40px auto;
+  border-radius: 8px;
+  border: 2px solid #007bff;
+  background-color: #1a1a2e;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+.active-users-container h2 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+  padding: 15px 0;
+  background-color: #007bff;
+  margin: 0;
+}
+
+.active-users-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  background-color: #2f3640;
+}
+
+.active-users-table th, 
+.active-users-table td {
+  padding: 15px;
+  font-size: 1.2rem;
+  color: #f1f1f1;
+}
+
+.active-users-table th {
+  background-color: #1e272e;
+  color: #f1f1f1;
+  font-weight: bold;
+}
+
+.user-row:nth-child(odd) {
+  background-color: #2f3640;
+}
+
+.user-row:nth-child(even) {
+  background-color: #353b48;
+}
+
+.user-row:hover {
+  background-color: #326fac;
+  transition: background-color 0.3s ease;
+}
+
+.user-row td:first-child {
+  font-weight: bold;
+  color: #00a8ff;
+}
+
+.user-row td:last-child {
+  font-weight: bold;
+  color: #4cd137;
+}
